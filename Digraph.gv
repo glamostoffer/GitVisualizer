@@ -1,0 +1,7 @@
+// Git Tree
+digraph {
+	InitialCommit
+	InitialCommit -> SecondCommit
+	SecondCommit -> ThirdCommit
+	InitialCommit -> NewBranch
+}
